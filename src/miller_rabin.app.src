@@ -1,0 +1,13 @@
+{application, miller_rabin, [
+	{description, "Miller-Rabin primality test"},
+	{vsn, "0.1.0"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib
+	]},
+	{mod, {miller_rabin, []}},
+	{env, []}
+]}.
+
